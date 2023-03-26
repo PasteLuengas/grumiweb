@@ -1,0 +1,10 @@
+@media screen and (max-width: 1167px) {
+    .parts {
+        display: inline;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+}

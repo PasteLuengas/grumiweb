@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    color: white;
+    height: 92vh;
+    background-image: url("../img/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    padding: 30px;
+}
+
+.about, .works {
+    margin: 50px;
+}
+
+.about p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.colored {
+    background-color: rgb(1, 0, 14);
+    color: white;
+    padding: 20px;
+}
+
+.colored *{
+    background-color: rgb(1, 0, 14);
+    color: white;
+    padding: 20px;
+}
+
+.colored button{
+    border: 0.2px white solid;
+    background-color: rgb(1, 0, 14);
+    color: white;
+    border-radius: 10px;
+}
+
+.colored button:hover{
+    border: 0.2px white solid;
+    background-color: white;
+    color: rgb(1, 0, 14);
+}
+
+.colored button:active{
+    border: 0.2px white solid;
+    background-color: white;
+    color: rgb(1, 0, 14);
+}
+
+.colored button *{
+    background-color: rgb(1, 0, 14);
+    color: white;
+}
+
+.colored button:hover *{
+    background-color: white;
+    color: rgb(1, 0, 14);
+}
+
+
+.edu-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.edu-buttons button {
+    margin: 30px;
+    width: 400px;
+}
+
+.colored h2 {
+    text-align: center;
+}
+
+.education h5 {
+    text-align: center;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.works h2 {
+    text-align: center;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+    border-bottom: 2px gray solid;
+    width: 350px;
+    margin-top: 20px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 2px white solid;
+}
+
+#submit {
+    background-color: white;
+    color: rgb(1, 0, 14);
+}
+
+.parts {
+    display: flex;
+}
+
+.iconlol {
+    font-size: 20px;
+}
+
+textarea {
+    height: 120px;
+}
+
+.imagework {
+    width: 260px;
+    border-radius: 250px;
+    padding-top: 10px;
+}
+
+.playbutton {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(1, 0, 14);
+    color: white;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    left: 180px;
+    bottom: 55px;
+}
+
+.box {
+    width: 330px;
+    padding: 40px;
+    border: 1px rgb(1, 0, 14) solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.workbutton {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(1, 0, 14);
+    color: white;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+audio {
+    display: none;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    margin: 15px;
+}
+
